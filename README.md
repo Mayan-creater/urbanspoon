@@ -1,6 +1,6 @@
 # Urban Spoon
 
-Urban Spoon is an AI-powered hyperlocal food marketplace. The repository is a pnpm workspace with a Next.js web app, a NestJS API, and shared packages.
+Urban Spoon is an AI-powered hyperlocal food marketplace for discovering and ordering dishes across multiple cuisines. The repository is a pnpm workspace with a Next.js web app, a NestJS API, and shared packages.
 
 ## Prerequisites
 
