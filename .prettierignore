@@ -1,0 +1,6 @@
+/docs/
+/.github/copilot-instructions.md
+/.github/instructions/
+/.github/prompts/
+/pnpm-lock.yaml
+/apps/web/next-env.d.ts

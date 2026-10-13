@@ -1,0 +1,26 @@
+{
+  "name": "@urbanspoon/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -e ../../.env -- next dev --port 3000",
+    "build": "dotenv -e ../../.env -- next build",
+    "start": "dotenv -e ../../.env -- next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests src",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@urbanspoon/contracts": "workspace:*",
+    "next": "^16.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "vitest": "^3.2.4"
+  }
+}
